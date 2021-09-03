@@ -5,9 +5,9 @@
     <input v-model="bookData.finishedReading" type="checkbox" name="finished">
     <label for="bookData.finishedReading" text="finished reading?"></label>
     <input v-model="bookData.ownership" type="radio" value="borrowed">
-    <label for="bookData.borrowed" text="borrowed"></label>
+    <label for="borrowed" text="borrowed"></label>
     <input v-model="bookData.ownership" type="radio" value="brought">
-    <label for="bookdata.brought" text="brought?"></label>
+    <label for="brought" text="brought?"></label>
 
     <button type="submit" name="button">Add Book</button>
   </form>
