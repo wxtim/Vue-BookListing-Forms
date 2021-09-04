@@ -2,7 +2,7 @@
   <form v-on:submit.prevent="bookSubmit(bookTitle, bookAuthor)" class="" action="#" method="post">
     <input v-model="bookData.bookTitle" type="text" name="title" value="" placeholder="Book Title">
     <input v-model="bookData.bookAuthor" type="text" name="author" value="" placeholder="Book Author">
-    <label for="bookData.finishedReading" text="Finished Reading">
+    <label for="bookData.finishedReading" text="Finished Reading">Finished Reading
       <input v-model="bookData.finishedReading" type="checkbox" name="finished">
     </label>
     <label for="borrowed" text="borrowed">
